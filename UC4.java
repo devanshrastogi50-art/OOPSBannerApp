@@ -3,7 +3,7 @@ public class UC4 {
 
     static String gap = "   ";
 
-    // method to build a single banner line
+    
     static String buildLine(String... parts) {
         return String.join(gap, parts);
     }
