@@ -12,13 +12,13 @@ public class UC5 {
                 String.join("", "+", "-".repeat(26), "+")
         };
 
-        // Enhanced for loop
+        
         for (String line : banner) {
             System.out.println(line);
         }
     }
 
-    // Helper function to center text
+    
     public static String centerText(String text, int width) {
         int padding = width - text.length();
         int left = padding / 2;
